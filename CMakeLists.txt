@@ -21,7 +21,6 @@ qt_add_qml_module(appCalendar
         QML_FILES UpdateCalendar.qml
         SOURCES FileHandler.h
         QML_FILES Event.qml
-        RESOURCES Resource.qrc
 )
 
 # Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
